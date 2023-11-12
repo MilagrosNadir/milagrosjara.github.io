@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=fontawesomefontawesome-free-6.4.2-web/.css rel="stylesheet"> <!--los iconos men -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Porfolio Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU o ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JARA </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTOS</a></li>
+                </ul>
+             </nav>
+             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered  fa-inverse">
+                </i> 
+            </div>
+            <script>
+                function mostrarOcultarMenu() {
+            }
+            </script>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="recursos web/Recurso 2perfil.png" alt="recurso2perfil">
+            </div>
+            <h1>NADIR JARA</h1>
+            <h2>Estudiante de Comunicación Social-Digital </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/nadir.milagros"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/nadiir_jara/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nadir-jara-b3919319b/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=543884164378&text=Hola!"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span> HOLA! SOY NADIR.</span> En mi proceso de formación, he explorado diversas áreas, desde la comunicación social y la edición hasta el marketing de
+            contenidos, y más recientemente, la programación.
+            Si bien mi anhelo es dedicarme algún día a la investigación, actualmente me desempeño como social media manager en la
+            Universidad Nacional de Jujuy, mi institución formadora. Me considero una persona proactiva, siempre en busca de nuevas
+            oportunidades de aprendizaje. Realizé cursos de idiomas, edición, ilustración e incluso participé en intercambios
+            académicos para seguir ampliando mis conocimientos.
+            Te invito a seguir conectado y compartir experiencias en esta red. ¡Sigamos aprendiendo y creciendo juntos en esta
+            apasionante trayectoria!.</p>
+            <div class="fila">
+                <!-- datos personales -->
+     <div class="col">
+        <h3>Datos Personales</h3>
+            <ul>
+                <li>
+                <strong>Cumpleaños</strong>
+                     09-01-2000
+                </li>
+                <li>
+                <strong>Celular</strong>
+                      +54 (388) 416-4378
+                </li>
+                <li>
+                <strong>Email</strong>
+                      jaranadir15@gmail.com
+                </li>
+                <li>
+                 <strong>Website</strong>
+                     www.myweb.com
+                </li>
+                <li>
+                <strong>Dirección</strong>
+                     Palpalá,Jujuy-Argentina
+                </li>
+                <li>
+                <strong>Trabajo</strong>
+                    <span> Comunicación-Sec. de Extensión UNJu</span>
+                </li>
+            </ul>
+    </div>
+      <!-- gustos section -->
+    <div class="col">
+        <h3>Gustos</h3>
+        <div class="contenedor-intereses">
+            <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LIBROS</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+            </div>
+        </div>
+    </div>
+     </section>  
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Premiere Pro</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML y CSS </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Trabajo en Equipo </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>
+    <div class="carousel">
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title"></div>
+                <div class="num">01</div>
+                <img src= "carrusell/00.png"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Yuto</div>
+                <div class="num">02</div>
+                <img src="carrusell/02foto.jpeg"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">San Salvador</div>
+                <div class="num">03</div>
+                <img src="carrusell/03foto.jpg"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Feria del Libro</div>
+                <div class="num">04</div>
+                <img src="carrusell/04foto.png"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Vinalito</div>
+                <div class="num">05</div>
+                <img src="carrusell/05foto.jpg"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">ExpoFeria Agroecologica</div>
+                <div class="num">06</div>
+                <img src="carrusell/01foto.jpg"/>
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Puesto del Marqués </div>
+                <div class="num">07</div>
+                <img src="carrusell/07foto.jpg" />
+            </div>
+        </div>
+    
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Regina</div>
+                <div class="num">08</div>
+                <img src="carrusell/08foto.jpg" />
+            </div>
+        </div>
+         <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title">Yala</div>
+                <div class="num">09</div>
+                <img src="carrusell/9.jpg" />
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-box">
+                <div class="title"></div>
+                <div class="num">10</div>
+                <img src="carrusell/10.png" />
+            </div>
+        </div>
+    </div>
+</section> <!-- no quitar menza -->
+<!-- podcast -->
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58201.14784153869!2d-65.24951550462261!3d-24.256753001783448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b00ad469ef345%3A0xf0fa5e23f119b94c!2zUGFscGFsw6EsIEp1anV5!5e0!3m2!1ses!2sar!4v1699759200600!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/nadir.milagros"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/nadiir_jara/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nadir-jara-b3919319b/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=543884164378&text=Hola!"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</footer>
+<script src="interactiv.js"></script>
+</div>
+</body>
+</html>
